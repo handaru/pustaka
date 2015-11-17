@@ -1,6 +1,6 @@
-package pustaka
+package main
 
-func init() {
+func main() {
 
 }
 
