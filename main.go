@@ -15,9 +15,9 @@ var dbmap = initDb()
 
 func main() {
 
-	pustaka.hi("handaru")
-
 	defer dbmap.Db.Close()
+
+	pustaka.hi("Hans")
 
 	router := gin.Default()
 	router.GET("/", Index)

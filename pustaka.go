@@ -1,8 +1,7 @@
 package pustaka
 
+func init() {
 
-func func init() {
-	
 }
 
 func hi(name string) string {
