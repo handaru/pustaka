@@ -2,17 +2,20 @@ package main
 
 import (
 	"database/sql"
-	"fmt"
 	"github.com/coopernurse/gorp"
 	"github.com/gin-gonic/gin"
+	"github.com/handaru/pustaka"
 	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"strconv"
+	"time"
 )
 
 var dbmap = initDb()
 
 func main() {
+
+	pustaka.hi("handaru")
 
 	defer dbmap.Db.Close()
 
